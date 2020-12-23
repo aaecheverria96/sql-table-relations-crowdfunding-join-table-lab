@@ -1,34 +1,7 @@
 
 
-INSERT INTO users VALUES (1, "Andy", 10);
-INSERT INTO users VALUES (2, "Martha", 20); 
-INSERT INTO users VALUES (3, "Victor", 34); 
-INSERT INTO users VALUES (4, "George", 23);
-INSERT INTO users VALUES (5, "GP", 12);
-INSERT INTO users VALUES (6, "Luke", 13);
-INSERT INTO users VALUES (7, "Kerry", 20);
-INSERT INTO users VALUES (8, "Juliana", 23);
-INSERT INTO users VALUES (9, "Lenny", 23);
-INSERT INTO users VALUES (10, "Jocelyn", 21); 
-INSERT INTO users VALUES (11, "Maria", 9);
-INSERT INTO users VALUES (12, "Jose", 90);
-INSERT INTO users VALUES (13, "Jonathan", 67);
-INSERT INTO users VALUES (14, "Victoria", 45); 
-INSERT INTO users VALUES (15, "Jenny", 32); 
-INSERT INTO users VALUES (16, "Katrina", 21);
-INSERT INTO users VALUES (17, "Richard", 35);
-INSERT INTO users VALUES (18, "Natalia", 11);
-INSERT INTO users VALUES (19, "Heather", 27);
-INSERT INTO users VALUES (20, "Noelia", 22) 
+INSERT INTO users (id, name, age) VALUES (1, "Andy", 10), (2, "Martha", 20),(3, "Victor", 34),(4, "George", 23),(5, "GP", 12),(6, "Luke", 13),(7, "Kerry", 20),(8, "Juliana", 23),(9, "Lenny", 23),(10, "Jocelyn", 21), (11, "Maria", 9),(12, "Jose", 90),(13, "Jonathan", 67),(14, "Victoria", 45), (15, "Jenny", 32),(16, "Katrina", 21),(17, "Richard", 35),(18, "Natalia", 11),(19, "Heather", 27),(20, "Noelia", 22);
 
-INSERT INTO projects VALUES  (1, "Failing", "project", 18494, '2020-20-5', '2020-10-10');
-INSERT INTO projects VALUES  (2, "Will we pass this?", "project",4737, '2020-20-5', '2020-10-10');
-INSERT INTO projects VALUES  (3, "X Project","project", 76, '2020-20-5', '2020-10-10');
-INSERT INTO projects VALUES  (5, "Project science","project", 1000, '2020-20-5', '2020-10-10'); 
-INSERT INTO projects VALUES  (6, "Project Reggae", "project",67, '2020-20-5', '2020-10-10'); 
-INSERT INTO projects VALUES  (7,"Ikea","project", 18765, '2020-20-5', '2020-10-10');
-INSERT INTO projects VALUES  (8, "Project","project",100, '2020-20-5', '2020-10-10'); 
-INSERT INTO projects VALUES  (4, "Nice","project", 123, '2020-20-5', '2020-10-10');
-INSERT INTO projects VALUES  (9, "Letters","project", 897,  '2020-20-5', '2020-10-10'); 
-INSERT INTO projects VALUES  (10, "Last", "project",16543, '2020-20-5', '2020-10-10')
+INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES  (1, "Failing", "project", 18494, '2020-20-5', '2020-10-10'),(2, "Will we pass this?", "project",4737, '2020-20-5', '2020-10-10'),(3, "X Project","project", 76, '2020-20-5', '2020-10-10'),(5, "Project science","project", 1000, '2020-20-5', '2020-10-10'), (6, "Project Reggae", "project",67, '2020-20-5', '2020-10-10'), (7,"Ikea","project", 18765, '2020-20-5', '2020-10-10'),(8, "Project","project",100, '2020-20-5', '2020-10-10'), (4, "Nice","project", 123, '2020-20-5', '2020-10-10'),(9, "Letters","project", 897,  '2020-20-5', '2020-10-10'),(10, "Last", "project",16543, '2020-20-5', '2020-10-10');
 
+INSERT INTO pledges (id, amount, user_id, project_id) VALUES (1,1,1,1), (2,2,2,2), (3,3,3,3), (4,4,4,4), (5,5,5,5), (6,6,6,6), (7,7,7,7), (8,8,8,8), (9,9,9,9), (10,10,10,10), (11,11,11,11), (12,12,12,12), (13,13,13,13), (14,14,14,14), (15,15,15,15),(16,16,16,16), (17,17,17,17), (18,18,18,18), (19,19,19,19), (20,20,20,20), (21,21,21,21), (22,22,22,22), (23,23,23,23), (24,24,24,24), (25,25,25,25), (26,26,26,26), (27,27,27,27), (28,28,28,28), (29,29,29,29), (30,30,30,30); 
